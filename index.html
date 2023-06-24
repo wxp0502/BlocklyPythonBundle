@@ -5,12 +5,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>pure BlocklyPython</title>
+  <title>BlocklyPython</title>
   <script src="pyodide/pyodide.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis@1.0.2/dist/tfjs-vis.umd.min.js"></script> -->
 </head>
 <body>
   <div id="main-container">
-    <div id="header">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BlocklyPython项目
+    <div id="header">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BlocklyPython
+      <!-- <button id="tutorial-open-button" type="button" class="tutorial-button">点我查看案例</button>
+      <button id="contact-button" type="button" class='contact-button'>
+        <a href="Mailto:chrisjaunes@outlook.com?CC=chrisjaunes@mail.com&Subject=[BlocklyPython]">点我联系负责</a>
+      </button> -->
       <dialog id="tutorial-dialog">
         <button id = "tutorial-close-button" class = "aui_close">x</button>
         <div id="tutorial-dialog-container"></div>
@@ -35,5 +41,5 @@
 </script>
 <script src='./main.bundle.js'></script>
 <script src="./page_resize.js"></script>
-<script src='./project_data/default.project.js'></script>
+<script src='./project_data/all.project.js'></script>
 </html>
